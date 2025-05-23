@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body>
+    <form onsubmit="criadeck(event); return false">
+        <input type="submit" value="DECK NOVO" id="drawdeck">
+    </form>
+    <p></p>
+
+    <input type="submit" disabled="true" id="em" onclick=embaralhar() value="Embaralhar">
+    <p></p>
+    <form onsubmit="buscaCarta(event); return false">
+        <input type="submit" disabled="true" id="draw" value="Entrega carta">
+    </form>
+    <p id="marcos">Marcos:</p>
+    <img id="mimagem1"><img src="" id="mimagem2"><img src="" id="mimagem3"><img src="" id="mimagem4">
+    <p id="lucas">Lucas:</p><img id="limagem1"><img src="" id="limagem2"><img src="" id="limagem3"><img src=""
+        id="limagem4">
+    <p id="max">Max</p><img id="ximagem1"><img src="" id="ximagem2"><img src="" id="ximagem3"><img src="" id="ximagem4">
+    <p id="vini">Vini</p><img id="vimagem1"><img src="" id="vimagem2"><img src="" id="vimagem3"><img src=""
+        id="vimagem4">
+ <script src="api.js"></script>
+</body>
+
+</html>
